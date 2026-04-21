@@ -223,110 +223,100 @@
 </head>
 <body>
 <a href="#main-content" class="skip-link">Skip to main content</a>
-
-<!-- PRELOADER -->
-<div class="preloader" id="preloader">
-  <img class="preloader-leaf" src="data:image/png;base64,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" alt="Alakemere" style="width:60px;height:60px;"/>
-</div>
-
-<!-- NAV -->
-<nav id="mainNav" aria-label="Main navigation">
-  <a href="#" class="nav-logo" aria-label="Alakemere — Home">
-    <img src="data:image/png;base64,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" alt="Alakemere cassava leaf logo" style="height:38px;width:38px;display:block;"/>
-    <span style="display:inline-block;width:1px;height:28px;background:rgba(237,224,212,0.3);margin:0 14px;flex-shrink:0;"></span>
-    <span style="font-family:'Montserrat',sans-serif;font-size:0.82rem;font-weight:600;letter-spacing:0.28em;color:#EDE0D4;white-space:nowrap;">ALAKEMERE</span>
+<nav id="nav" aria-label="Main navigation">
+  <a href="/index.html" class="nav-logo" aria-label="Alakemere Home">
+    <img src="data:image/png;base64,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" alt="Alakemere cassava leaf logo" style="height:36px;width:36px;display:block"/>
+    <span style="display:inline-block;width:1px;height:26px;background:rgba(237,224,212,.28);margin:0 13px;flex-shrink:0"></span>
+    <span style="font-family:'Montserrat',sans-serif;font-size:.8rem;font-weight:600;letter-spacing:.26em;color:#EDE0D4;white-space:nowrap">ALAKEMERE</span>
   </a>
-
   <ul class="nav-menu" role="menubar">
     <li class="nav-item" role="none">
-      <a href="/who-we-are.html" role="menuitem">Who We Are <span class="chevron">▾</span></a>
+      <a href="/who-we-are.html" role="menuitem" class="active">Who We Are <span class="chevron">▾</span></a>
       <div class="dropdown" role="menu">
         <div class="dropdown-label">About Alakemere</div>
-        <a href="/who-we-are.html" role="menuitem">Our Story</a>
-        <a href="/who-we-are.html" role="menuitem">Founder &amp; Leadership</a>
-        <a href="/who-we-are.html" role="menuitem">Our Values</a>
+        <a href="/who-we-are.html" role="menuitem">Our Story &amp; Values</a>
         <a href="/why-alakemere.html" role="menuitem">Why Alakemere</a>
       </div>
     </li>
     <li class="nav-item" role="none">
-      <a href="/management-consulting.html" role="menuitem">Management Consulting <span class="chevron">▾</span></a>
+      <a href="/management-consulting.html" role="menuitem" class="">Management Consulting <span class="chevron">▾</span></a>
       <div class="dropdown" role="menu">
         <div class="dropdown-label">Advisory Services</div>
-        <a href="/management-consulting.html" role="menuitem">Business Performance Optimisation</a>
-        <a href="/management-consulting.html" role="menuitem">Data Strategy &amp; Analytics</a>
-        <a href="/management-consulting.html" role="menuitem">Digital Transformation</a>
-        <a href="/management-consulting.html" role="menuitem">Project Monitoring &amp; Evaluation</a>
-        <a href="/management-consulting.html" role="menuitem">Process Improvement</a>
+        <a href="/management-consulting.html" role="menuitem">All Advisory Services</a>
+        <a href="/business-performance.html" role="menuitem">Business Performance Optimisation</a>
+        <a href="/data-strategy.html" role="menuitem">Data Strategy &amp; Analytics</a>
+        <a href="/digital-transformation.html" role="menuitem">Digital Transformation</a>
+        <a href="/project-monitoring.html" role="menuitem">Project Monitoring &amp; Evaluation</a>
+        <a href="/process-improvement.html" role="menuitem">Process Improvement</a>
       </div>
     </li>
     <li class="nav-item" role="none">
-      <a href="/auditing-services.html" role="menuitem">Auditing Services <span class="chevron">▾</span></a>
+      <a href="/auditing-services.html" role="menuitem" class="">Auditing Services <span class="chevron">▾</span></a>
       <div class="dropdown" role="menu">
         <div class="dropdown-label">Audit &amp; Assurance</div>
-        <a href="/auditing-services.html" role="menuitem">Data Quality Audits</a>
-        <a href="/auditing-services.html" role="menuitem">Process &amp; Compliance Audits</a>
-        <a href="/auditing-services.html" role="menuitem">Operational Risk Assessment</a>
-        <a href="/auditing-services.html" role="menuitem">Reporting Lifecycle Review</a>
-        <a href="/auditing-services.html" role="menuitem">ERP Systems Audit</a>
+        <a href="/auditing-services.html" role="menuitem">All Audit Services</a>
+        <a href="/data-quality-audits.html" role="menuitem">Data Quality Audits</a>
+        <a href="/compliance-audits.html" role="menuitem">Process &amp; Compliance Audits</a>
+        <a href="/risk-assessment.html" role="menuitem">Operational Risk Assessment</a>
+        <a href="/reporting-lifecycle.html" role="menuitem">Reporting Lifecycle Review</a>
+        <a href="/erp-audit.html" role="menuitem">ERP Systems Audit</a>
       </div>
     </li>
     <li class="nav-item" role="none">
-      <a href="/hr-consulting.html" role="menuitem">HR Consulting <span class="chevron">▾</span></a>
+      <a href="/hr-consulting.html" role="menuitem" class="">HR Consulting <span class="chevron">▾</span></a>
       <div class="dropdown" role="menu">
         <div class="dropdown-label">People &amp; Organisation</div>
-        <a href="/hr-consulting.html" role="menuitem">HR Systems Implementation</a>
-        <a href="/hr-consulting.html" role="menuitem">Payroll &amp; Compliance</a>
-        <a href="/hr-consulting.html" role="menuitem">Workforce Data Management</a>
-        <a href="/hr-consulting.html" role="menuitem">People Analytics</a>
-        <a href="/hr-consulting.html" role="menuitem">Nara — HR Software</a>
+        <a href="/hr-consulting.html" role="menuitem">All HR Services</a>
+        <a href="/hr-systems.html" role="menuitem">HR Systems Implementation</a>
+        <a href="/payroll-compliance.html" role="menuitem">Payroll &amp; Compliance</a>
+        <a href="/workforce-data.html" role="menuitem">Workforce Data Management</a>
+        <a href="/people-analytics.html" role="menuitem">People Analytics</a>
       </div>
     </li>
     <li class="nav-item" role="none">
-      <a href="/training.html" role="menuitem">Training <span class="chevron">▾</span></a>
+      <a href="/training.html" role="menuitem" class="">Training <span class="chevron">▾</span></a>
       <div class="dropdown" role="menu">
         <div class="dropdown-label">Professional Development</div>
-        <a href="/training.html" role="menuitem">Data Analytics for Managers</a>
-        <a href="/training.html" role="menuitem">Power BI &amp; Dashboard Design</a>
-        <a href="/training.html" role="menuitem">Python for Business Intelligence</a>
-        <a href="/training.html" role="menuitem">Excel &amp; VBA Automation</a>
-        <a href="/training.html" role="menuitem">ERP Systems Training</a>
+        <a href="/training.html" role="menuitem">All Training Programmes</a>
+        <a href="/power-bi-training.html" role="menuitem">Power BI for Your Business</a>
+        <a href="/power-automate-training.html" role="menuitem">Power Automate &amp; Workflow Design</a>
+        <a href="/ai-tools-training.html" role="menuitem">AI Tools for Nigerian Business</a>
       </div>
     </li>
   </ul>
-
-  <button class="nav-cta" onclick="window.location.href='/contact.html'">Book a Consultation</button>
-  <button class="hamburger" id="hamburgerBtn" aria-label="Open menu" aria-expanded="false">
-    <span></span><span></span><span></span>
-  </button>
+  <a href="/contact.html" class="nav-cta">Book a Consultation</a>
+  <button class="hamburger" id="hb" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
 </nav>
-
-<!-- MOBILE NAV -->
-<div class="mobile-nav" id="mobileNav" role="navigation" aria-label="Mobile navigation">
-  <div class="mobile-section-label">Who We Are</div>
-  <a href="/who-we-are.html" class="main-link" onclick="closeMobileNav()">About Alakemere</a>
-  <a href="/who-we-are.html" onclick="closeMobileNav()">Our Story &amp; Values</a>
-  <a href="/why-alakemere.html" onclick="closeMobileNav()">Why Alakemere</a>
-  <div class="mobile-section-label">Management Consulting</div>
-  <a href="/management-consulting.html" class="main-link" onclick="closeMobileNav()">All Advisory Services</a>
-  <a href="/management-consulting.html" onclick="closeMobileNav()">Business Performance Optimisation</a>
-  <a href="/management-consulting.html" onclick="closeMobileNav()">Data Strategy &amp; Analytics</a>
-  <a href="/management-consulting.html" onclick="closeMobileNav()">Digital Transformation</a>
-  <div class="mobile-section-label">Auditing Services</div>
-  <a href="/auditing-services.html" class="main-link" onclick="closeMobileNav()">All Audit Services</a>
-  <a href="/auditing-services.html" onclick="closeMobileNav()">Data Quality Audits</a>
-  <a href="/auditing-services.html" onclick="closeMobileNav()">Process &amp; Compliance Audits</a>
-  <a href="/auditing-services.html" onclick="closeMobileNav()">Operational Risk Assessment</a>
-  <div class="mobile-section-label">HR Consulting</div>
-  <a href="/hr-consulting.html" class="main-link" onclick="closeMobileNav()">All HR Services</a>
-  <a href="/hr-consulting.html" onclick="closeMobileNav()">HR Systems Implementation</a>
-  <a href="/hr-consulting.html" onclick="closeMobileNav()">Payroll &amp; Compliance</a>
-  <a href="/hr-consulting.html" onclick="closeMobileNav()">Nara — HR Software</a>
-  <div class="mobile-section-label">Training &amp; Certification</div>
-  <a href="/training.html" class="main-link" onclick="closeMobileNav()">All Training Programmes</a>
-  <a href="/training.html" onclick="closeMobileNav()">Data Analytics for Managers</a>
-  <a href="/training.html" onclick="closeMobileNav()">Power BI &amp; Dashboard Design</a>
-  <a href="/training.html" onclick="closeMobileNav()">Python for Business Intelligence</a>
-  <a href="/contact.html" class="mobile-cta" onclick="closeMobileNav()">Book a Consultation →</a>
+<div class="mobile-nav" id="mn" role="navigation" aria-label="Mobile navigation">
+  <div class="mob-label">Who We Are</div>
+  <a href="/who-we-are.html" class="mob-main" onclick="closeMenu()">About Alakemere</a>
+  <a href="/why-alakemere.html" onclick="closeMenu()">Why Alakemere</a>
+  <div class="mob-label">Management Consulting</div>
+  <a href="/management-consulting.html" class="mob-main" onclick="closeMenu()">All Advisory Services</a>
+  <a href="/business-performance.html" onclick="closeMenu()">Business Performance Optimisation</a>
+  <a href="/data-strategy.html" onclick="closeMenu()">Data Strategy &amp; Analytics</a>
+  <a href="/digital-transformation.html" onclick="closeMenu()">Digital Transformation</a>
+  <a href="/project-monitoring.html" onclick="closeMenu()">Project Monitoring &amp; Evaluation</a>
+  <a href="/process-improvement.html" onclick="closeMenu()">Process Improvement</a>
+  <div class="mob-label">Auditing Services</div>
+  <a href="/auditing-services.html" class="mob-main" onclick="closeMenu()">All Audit Services</a>
+  <a href="/data-quality-audits.html" onclick="closeMenu()">Data Quality Audits</a>
+  <a href="/compliance-audits.html" onclick="closeMenu()">Process &amp; Compliance Audits</a>
+  <a href="/risk-assessment.html" onclick="closeMenu()">Operational Risk Assessment</a>
+  <a href="/reporting-lifecycle.html" onclick="closeMenu()">Reporting Lifecycle Review</a>
+  <a href="/erp-audit.html" onclick="closeMenu()">ERP Systems Audit</a>
+  <div class="mob-label">HR Consulting</div>
+  <a href="/hr-consulting.html" class="mob-main" onclick="closeMenu()">All HR Services</a>
+  <a href="/hr-systems.html" onclick="closeMenu()">HR Systems Implementation</a>
+  <a href="/payroll-compliance.html" onclick="closeMenu()">Payroll &amp; Compliance</a>
+  <a href="/workforce-data.html" onclick="closeMenu()">Workforce Data Management</a>
+  <a href="/people-analytics.html" onclick="closeMenu()">People Analytics</a>
+  <div class="mob-label">Training</div>
+  <a href="/training.html" class="mob-main" onclick="closeMenu()">All Training Programmes</a>
+  <a href="/power-bi-training.html" onclick="closeMenu()">Power BI for Your Business</a>
+  <a href="/power-automate-training.html" onclick="closeMenu()">Power Automate &amp; Workflow Design</a>
+  <a href="/ai-tools-training.html" onclick="closeMenu()">AI Tools for Nigerian Business</a>
+  <a href="/contact.html" class="mob-cta" onclick="closeMenu()">Book a Consultation →</a>
 </div>
 
 <main id="main-content">
@@ -344,7 +334,7 @@
     <p class="hero-sub">Alakemere is a management consulting firm helping Nigerian businesses perform at their best — through data-driven advisory, rigorous auditing, people strategy, and professional development that sticks.</p>
     <div class="hero-actions">
       <button class="btn-primary" onclick="window.location.href='/contact.html'">Book a Consultation</button>
-      <button class="btn-ghost" onclick="document.getElementById('services-overview').scrollIntoView({behavior:'smooth'})">Our Services</button>
+      <button class="btn-ghost" onclick="document.getElementById('services-overview') && document.getElementById('services-overview').scrollIntoView({behavior:'smooth'})">Our Services</button>
     </div>
   </div>
   <div class="hero-stats" aria-label="Key facts">
@@ -593,6 +583,8 @@
     <div class="cta-contact">Or reach us on WhatsApp: <a href="https://wa.me/2348030733798">+234 803 073 3798</a><br/><a href="mailto:hello@alakemere.com">hello@alakemere.com</a> · Abuja, Nigeria</div>
   </div>
 </section>
+
+</main>
 
 </main>
 
