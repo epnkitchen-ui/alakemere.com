@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Project Monitoring & Evaluation Nigeria | Alakemere</title>
+  <meta name="description" content="Alakemere provides project monitoring and evaluation for Nigerian infrastructure and large-scale projects — integrated schedule, cost, and logistics analysis for executive decision-making."/>
+  <link rel="canonical" href="https://alakemere.com/project-monitoring.html"/>
+  <meta property="og:title" content="Project Monitoring & Evaluation Nigeria | Alakemere"/>
+  <meta property="og:description" content="Alakemere provides project monitoring and evaluation for Nigerian infrastructure and large-scale projects — integrated schedule, cost, and logistics analysis for executive decision-making."/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:site_name" content="Alakemere"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,600&family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  :root{--deep:#5C3317;--brand:#6B3D1E;--warm:#8B5E3C;--gold:#8B5E3C;--cream:#EDE0D4;--white:#FAF5F0;--text:#5C3317}
+  html{scroll-behavior:smooth}
+  body{font-family:'Montserrat',sans-serif;background:var(--white);color:var(--text);overflow-x:hidden}
+  body::after{content:'';position:fixed;inset:0;z-index:200;pointer-events:none;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");opacity:.45}
+  .skip-link{position:absolute;top:-50px;left:0;z-index:9999;background:var(--deep);color:var(--cream);padding:10px 18px;font-size:.75rem;font-weight:600;letter-spacing:.1em;text-decoration:none;transition:top .2s}
+  .skip-link:focus{top:0}
+  nav{position:fixed;top:0;left:0;right:0;z-index:500;height:74px;display:flex;align-items:center;justify-content:space-between;padding:0 5vw;background:rgba(92,51,23,0.97);backdrop-filter:blur(14px);border-bottom:1px solid rgba(139,94,60,.1);transition:box-shadow .4s}
+  nav.scrolled{box-shadow:0 4px 40px rgba(0,0,0,.2)}
+  .nav-logo{display:flex;align-items:center;gap:0;text-decoration:none}
+  .nav-menu{display:flex;align-items:center;gap:0;list-style:none}
+  .nav-item{position:relative}
+  .nav-item>a{display:block;padding:0 .85rem;height:74px;line-height:74px;font-size:.58rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:rgba(237,224,212,.52);text-decoration:none;transition:color .25s;white-space:nowrap}
+  .nav-item>a:hover,.nav-item>a.active{color:var(--cream)}
+  .chevron{display:inline-block;margin-left:3px;font-size:.45rem;vertical-align:middle;transition:transform .25s}
+  .nav-item:hover .chevron{transform:rotate(180deg)}
+  .dropdown{position:absolute;top:74px;left:50%;transform:translateX(-50%) translateY(-8px);background:var(--brand);border:1px solid rgba(139,94,60,.12);min-width:260px;padding:.75rem 0;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .25s,transform .25s,visibility .25s;box-shadow:0 20px 60px rgba(0,0,0,.35)}
+  .nav-item:hover .dropdown,.nav-item:focus-within .dropdown{opacity:1;visibility:visible;pointer-events:all;transform:translateX(-50%) translateY(0)}
+  .dropdown a{display:block;padding:.55rem 1.4rem;font-size:.62rem;font-weight:500;letter-spacing:.06em;color:rgba(237,224,212,.55);text-decoration:none;transition:color .2s,padding-left .2s;border-left:2px solid transparent;height:auto;line-height:1.4}
+  .dropdown a:hover{color:var(--cream);padding-left:1.9rem;border-left-color:var(--gold)}
+  .dropdown-label{font-size:.48rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);padding:0 1.4rem .4rem;margin-top:.2rem}
+  .nav-cta{margin-left:1rem;font-family:'Montserrat',sans-serif;font-size:.58rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;cursor:pointer;border:none;padding:.65rem 1.4rem;background:var(--gold);color:var(--brand);transition:background .2s,transform .15s;white-space:nowrap;flex-shrink:0;text-decoration:none;display:inline-block}
+  .nav-cta:hover{background:var(--cream);transform:translateY(-1px)}
+  .hamburger{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:4px}
+  .hamburger span{display:block;width:24px;height:2px;background:var(--cream);transition:all .3s}
+  .hamburger.active span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+  .hamburger.active span:nth-child(2){opacity:0}
+  .hamburger.active span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+  .mobile-nav{display:none;position:fixed;top:74px;left:0;right:0;bottom:0;z-index:490;background:var(--brand);flex-direction:column;padding:1.5rem 6vw;overflow-y:auto;transform:translateX(100%);transition:transform .35s ease}
+  .mobile-nav.open{transform:translateX(0)}
+  .mob-label{font-size:.48rem;font-weight:700;letter-spacing:.25em;text-transform:uppercase;color:var(--gold);margin:1.2rem 0 .4rem}
+  .mobile-nav a{display:block;padding:.6rem 0;font-size:.76rem;font-weight:400;letter-spacing:.04em;color:rgba(237,224,212,.6);text-decoration:none;border-bottom:1px solid rgba(237,224,212,.06)}
+  .mobile-nav a.mob-main{font-size:.92rem;font-weight:600;color:var(--cream);border-bottom:none}
+  .mob-cta{margin-top:1.5rem;display:block;text-align:center;background:var(--gold);color:var(--brand);font-size:.68rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;padding:.85rem;text-decoration:none}
+  /* PAGE HERO */
+  .page-hero{padding:140px 6vw 70px;background:var(--deep);position:relative;overflow:hidden}
+  .page-hero::after{content:'';position:absolute;top:0;right:14vw;width:1px;height:100%;background:linear-gradient(to bottom,transparent,rgba(139,94,60,.1) 40%,transparent);z-index:1}
+  .page-hero-inner{position:relative;z-index:2;max-width:780px}
+  .page-breadcrumb{font-size:.55rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:rgba(139,94,60,.6);margin-bottom:1.2rem;display:flex;align-items:center;gap:.6rem}
+  .page-breadcrumb a{color:rgba(139,94,60,.5);text-decoration:none}
+  .page-breadcrumb a:hover{color:var(--gold)}
+  .page-breadcrumb span{color:rgba(139,94,60,.3)}
+  .page-h1{font-family:'Cormorant Garamond',serif;font-size:clamp(2.4rem,5vw,4.5rem);font-weight:300;line-height:1.1;color:var(--cream);margin-bottom:1.5rem}
+  .page-h1 em{font-style:italic;color:var(--gold)}
+  .page-intro{font-size:.92rem;font-weight:300;line-height:1.9;color:rgba(237,224,212,.6);max-width:600px}
+  /* SECTION */
+  .section{padding:84px 6vw}
+  .section-alt{background:var(--cream)}
+  .section-dark{background:var(--brand)}
+  .eyebrow{font-size:.56rem;font-weight:700;letter-spacing:.3em;text-transform:uppercase;color:var(--warm);margin-bottom:1rem;display:flex;align-items:center;gap:.65rem}
+  .eyebrow::before{content:'';display:block;width:24px;height:1px;background:var(--warm)}
+  .eyebrow-light{color:var(--gold)}
+  .eyebrow-light::before{background:var(--gold)}
+  .display{font-family:'Cormorant Garamond',serif;font-size:clamp(1.9rem,3.8vw,3.4rem);font-weight:300;line-height:1.18;color:var(--deep);margin-bottom:1.6rem}
+  .display em{font-style:italic;color:var(--warm)}
+  .display-light{color:var(--cream)}
+  .display-light em{color:var(--gold)}
+  .body-text{font-size:.88rem;font-weight:300;line-height:1.9;color:rgba(92,51,23,.7);max-width:640px}
+  .body-text-light{color:rgba(237,224,212,.62)}
+  /* REVEAL */
+  .reveal{opacity:0;transform:translateY(22px);transition:opacity .65s ease,transform .65s ease}
+  .reveal.visible{opacity:1;transform:translateY(0)}
+  .d1{transition-delay:.12s}.d2{transition-delay:.24s}.d3{transition-delay:.36s}
+  /* SERVICE LIST */
+  .svc-list{display:flex;flex-direction:column;margin-top:2.5rem}
+  .svc-item{padding:1.75rem 0;border-bottom:1px solid rgba(92,51,23,.1);display:grid;grid-template-columns:2.2rem 1fr;gap:1rem;align-items:start}
+  .svc-item:first-child{border-top:1px solid rgba(92,51,23,.1)}
+  .svc-dot{width:7px;height:7px;border-radius:50%;background:var(--gold);margin-top:5px}
+  .svc-title{font-size:.72rem;font-weight:700;letter-spacing:.07em;color:var(--deep);margin-bottom:.3rem;text-transform:uppercase}
+  .svc-body{font-size:.78rem;font-weight:300;line-height:1.8;color:rgba(92,51,23,.63)}
+  /* CARD GRID */
+  .card-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;margin-top:3rem;background:rgba(92,51,23,.07)}
+  .card{background:var(--white);padding:2.2rem 1.8rem;border-top:3px solid transparent;transition:all .3s}
+  .card:hover{border-top-color:var(--gold);transform:translateY(-3px);box-shadow:0 16px 44px rgba(92,51,23,.1)}
+  .card-icon{color:var(--warm);margin-bottom:1rem}
+  .card-title{font-family:'Cormorant Garamond',serif;font-size:1.15rem;font-weight:500;color:var(--deep);margin-bottom:.6rem}
+  .card-body{font-size:.73rem;font-weight:300;line-height:1.82;color:rgba(92,51,23,.6)}
+  /* TWO COL */
+  .two-col{display:grid;grid-template-columns:3fr 2fr;gap:6vw;align-items:start;margin-top:2.5rem}
+  .panel{background:var(--deep);padding:2.25rem;border-left:3px solid var(--gold)}
+  .panel-title{font-size:.52rem;font-weight:700;letter-spacing:.25em;text-transform:uppercase;color:var(--gold);margin-bottom:1.25rem}
+  .panel-row{display:flex;gap:.9rem;padding:.85rem 0;border-bottom:1px solid rgba(237,224,212,.07)}
+  .panel-row:last-child{border-bottom:none}
+  .panel-icon{flex-shrink:0;color:var(--gold);margin-top:2px}
+  .panel-text{font-size:.75rem;font-weight:300;line-height:1.65;color:rgba(237,224,212,.62)}
+  /* SUB-PAGES GRID */
+  .sub-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-top:3rem}
+  .sub-card{border:1px solid rgba(92,51,23,.12);padding:2rem 1.75rem;transition:all .3s;text-decoration:none;display:block;position:relative}
+  .sub-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--gold);transform:scaleX(0);transform-origin:left;transition:transform .3s}
+  .sub-card:hover{border-color:rgba(139,94,60,.3);box-shadow:0 10px 36px rgba(92,51,23,.09)}
+  .sub-card:hover::before{transform:scaleX(1)}
+  .sub-card-num{font-family:'Cormorant Garamond',serif;font-size:2rem;font-weight:300;color:rgba(139,94,60,.2);line-height:1;margin-bottom:1rem}
+  .sub-card-title{font-family:'Cormorant Garamond',serif;font-size:1.1rem;font-weight:500;color:var(--deep);margin-bottom:.55rem}
+  .sub-card-body{font-size:.72rem;font-weight:300;line-height:1.8;color:rgba(92,51,23,.58);margin-bottom:1rem}
+  .sub-card-link{font-size:.58rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--warm)}
+  /* BREADCRUMB BAR */
+  .breadbar{background:var(--cream);padding:.75rem 6vw;border-bottom:1px solid rgba(92,51,23,.08)}
+  .breadbar-inner{font-size:.56rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:rgba(92,51,23,.45);display:flex;align-items:center;gap:.5rem}
+  .breadbar-inner a{color:rgba(92,51,23,.45);text-decoration:none}
+  .breadbar-inner a:hover{color:var(--deep)}
+  /* QUOTE BLOCK */
+  .quote-block{font-family:'Cormorant Garamond',serif;font-size:clamp(1.2rem,2.2vw,1.75rem);font-style:italic;font-weight:300;line-height:1.65;color:var(--deep);border-left:3px solid var(--gold);padding-left:2rem;margin:2.5rem 0}
+  /* CTA STRIP */
+  .cta-strip{background:var(--deep);padding:64px 6vw;display:grid;grid-template-columns:1fr auto;gap:4vw;align-items:center}
+  .cta-strip-title{font-family:'Cormorant Garamond',serif;font-size:clamp(1.6rem,3vw,2.4rem);font-weight:300;color:var(--cream);line-height:1.2}
+  .cta-strip-title em{font-style:italic;color:var(--gold)}
+  .cta-strip-sub{font-size:.78rem;font-weight:300;color:rgba(237,224,212,.55);margin-top:.65rem;line-height:1.7;max-width:520px}
+  .btn-primary{font-family:'Montserrat',sans-serif;font-size:.65rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;cursor:pointer;border:none;padding:.95rem 2.2rem;background:var(--gold);color:var(--brand);transition:background .2s,transform .15s;text-decoration:none;display:inline-block;white-space:nowrap}
+  .btn-primary:hover{background:var(--cream);transform:translateY(-2px)}
+  .btn-ghost{font-family:'Montserrat',sans-serif;font-size:.65rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;cursor:pointer;padding:.95rem 2.2rem;background:transparent;border:1px solid rgba(237,224,212,.25);color:rgba(237,224,212,.65);transition:all .2s;text-decoration:none;display:inline-block}
+  .btn-ghost:hover{border-color:var(--cream);color:var(--cream)}
+  /* CONTACT FORM */
+  .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:6vw;align-items:start}
+  .form-input,.form-select{display:block;width:100%;margin-bottom:.85rem;background:rgba(237,224,212,.06);border:1px solid rgba(237,224,212,.12);color:var(--cream);font-family:'Montserrat',sans-serif;font-size:.75rem;font-weight:300;padding:.82rem 1rem;outline:none;transition:border-color .2s}
+  .form-input::placeholder{color:rgba(237,224,212,.28)}
+  .form-input:focus,.form-select:focus{border-color:var(--gold)}
+  .form-select{color:rgba(237,224,212,.5);cursor:pointer}
+  .form-select option{background:var(--brand)}
+  .form-btn{width:100%;font-family:'Montserrat',sans-serif;font-size:.65rem;font-weight:700;letter-spacing:.16em;text-transform:uppercase;cursor:pointer;border:none;padding:1rem;background:var(--gold);color:var(--brand);transition:background .2s}
+  .form-btn:hover{background:var(--cream)}
+  /* FOOTER */
+  footer{background:var(--brand);padding:5rem 6vw 2.5rem}
+  .footer-top{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:3rem;padding-bottom:3rem;border-bottom:1px solid rgba(237,224,212,.07)}
+  .footer-brand-name{font-family:'Cormorant Garamond',serif;font-size:1.4rem;font-weight:400;color:var(--cream);letter-spacing:.07em}
+  .footer-brand-tag{font-size:.48rem;font-weight:700;letter-spacing:.24em;color:var(--gold);text-transform:uppercase;margin-bottom:1rem;display:block}
+  .footer-tagline{font-size:.72rem;font-weight:300;line-height:1.82;color:rgba(237,224,212,.32);max-width:260px}
+  .footer-col-title{font-size:.5rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem}
+  .footer-col a{display:block;font-size:.68rem;font-weight:300;color:rgba(237,224,212,.4);text-decoration:none;margin-bottom:.55rem;transition:color .2s}
+  .footer-col a:hover{color:var(--cream)}
+  .footer-col p{font-size:.68rem;font-weight:300;color:rgba(237,224,212,.4);margin-bottom:.45rem}
+  .footer-bottom{display:flex;justify-content:space-between;align-items:center;padding-top:1.75rem;font-size:.6rem;font-weight:300;color:rgba(237,224,212,.22);letter-spacing:.05em}
+  .footer-bottom a{color:rgba(237,224,212,.28);text-decoration:none}
+  .wa-float{position:fixed;bottom:26px;right:26px;z-index:400;width:50px;height:50px;border-radius:50%;background:#25D366;color:#fff;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 24px rgba(37,211,102,.3);text-decoration:none;transition:transform .2s}
+  .wa-float:hover{transform:translateY(-3px)}
+  .wa-float svg{width:24px;height:24px}
+  .back-top{position:fixed;bottom:86px;right:28px;z-index:400;width:36px;height:36px;background:rgba(92,51,23,.8);border:1px solid rgba(139,94,60,.18);color:var(--cream);cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:.9rem;opacity:0;visibility:hidden;transition:all .3s}
+  .back-top.show{opacity:1;visibility:visible}
+  @media(max-width:1100px){.card-grid{grid-template-columns:repeat(2,1fr)}.sub-grid{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:900px){.nav-menu,.nav-cta{display:none}.hamburger{display:flex}.mobile-nav{display:flex}.two-col,.contact-grid,.footer-top{grid-template-columns:1fr}.cta-strip{grid-template-columns:1fr}}
+  @media(max-width:600px){.section{padding:60px 5vw}.page-hero{padding:110px 5vw 55px}.card-grid,.sub-grid{grid-template-columns:1fr}.footer-top{grid-template-columns:1fr 1fr;gap:1.75rem}.footer-bottom{flex-direction:column;gap:.6rem;text-align:center}}
+</style>
+</head>
+<body><a href="#main-content" class="skip-link">Skip to main content</a>
+<nav id="nav" aria-label="Main navigation">
+  <a href="/index.html" class="nav-logo" aria-label="Alakemere Home">
+    <img src="data:image/png;base64,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" alt="Alakemere cassava leaf logo" style="height:36px;width:36px;display:block"/>
+    <span style="display:inline-block;width:1px;height:26px;background:rgba(237,224,212,.28);margin:0 13px;flex-shrink:0"></span>
+    <span style="font-family:'Montserrat',sans-serif;font-size:.8rem;font-weight:600;letter-spacing:.26em;color:#EDE0D4;white-space:nowrap">ALAKEMERE</span>
+  </a>
+  <ul class="nav-menu" role="menubar">
+    <li class="nav-item" role="none">
+      <a href="/who-we-are.html" role="menuitem" class="">Who We Are <span class="chevron">▾</span></a>
+      <div class="dropdown" role="menu">
+        <div class="dropdown-label">About Alakemere</div>
+        <a href="/who-we-are.html" role="menuitem">Our Story &amp; Values</a>
+        <a href="/why-alakemere.html" role="menuitem">Why Alakemere</a>
+      </div>
+    </li>
+    <li class="nav-item" role="none">
+      <a href="/management-consulting.html" role="menuitem" class="active">Management Consulting <span class="chevron">▾</span></a>
+      <div class="dropdown" role="menu">
+        <div class="dropdown-label">Advisory Services</div>
+        <a href="/management-consulting.html" role="menuitem">All Advisory Services</a>
+        <a href="/business-performance.html" role="menuitem">Business Performance Optimisation</a>
+        <a href="/data-strategy.html" role="menuitem">Data Strategy &amp; Analytics</a>
+        <a href="/digital-transformation.html" role="menuitem">Digital Transformation</a>
+        <a href="/project-monitoring.html" role="menuitem">Project Monitoring &amp; Evaluation</a>
+        <a href="/process-improvement.html" role="menuitem">Process Improvement</a>
+      </div>
+    </li>
+    <li class="nav-item" role="none">
+      <a href="/auditing-services.html" role="menuitem" class="">Auditing Services <span class="chevron">▾</span></a>
+      <div class="dropdown" role="menu">
+        <div class="dropdown-label">Audit &amp; Assurance</div>
+        <a href="/auditing-services.html" role="menuitem">All Audit Services</a>
+        <a href="/data-quality-audits.html" role="menuitem">Data Quality Audits</a>
+        <a href="/compliance-audits.html" role="menuitem">Process &amp; Compliance Audits</a>
+        <a href="/risk-assessment.html" role="menuitem">Operational Risk Assessment</a>
+        <a href="/reporting-lifecycle.html" role="menuitem">Reporting Lifecycle Review</a>
+        <a href="/erp-audit.html" role="menuitem">ERP Systems Audit</a>
+      </div>
+    </li>
+    <li class="nav-item" role="none">
+      <a href="/hr-consulting.html" role="menuitem" class="">HR Consulting <span class="chevron">▾</span></a>
+      <div class="dropdown" role="menu">
+        <div class="dropdown-label">People &amp; Organisation</div>
+        <a href="/hr-consulting.html" role="menuitem">All HR Services</a>
+        <a href="/hr-systems.html" role="menuitem">HR Systems Implementation</a>
+        <a href="/payroll-compliance.html" role="menuitem">Payroll &amp; Compliance</a>
+        <a href="/workforce-data.html" role="menuitem">Workforce Data Management</a>
+        <a href="/people-analytics.html" role="menuitem">People Analytics</a>
+      </div>
+    </li>
+    <li class="nav-item" role="none">
+      <a href="/training.html" role="menuitem" class="">Training <span class="chevron">▾</span></a>
+      <div class="dropdown" role="menu">
+        <div class="dropdown-label">Professional Development</div>
+        <a href="/training.html" role="menuitem">All Training Programmes</a>
+        <a href="/power-bi-training.html" role="menuitem">Power BI for Your Business</a>
+        <a href="/power-automate-training.html" role="menuitem">Power Automate &amp; Workflow Design</a>
+        <a href="/ai-tools-training.html" role="menuitem">AI Tools for Nigerian Business</a>
+      </div>
+    </li>
+  </ul>
+  <a href="/contact.html" class="nav-cta">Book a Consultation</a>
+  <button class="hamburger" id="hb" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</nav>
+<div class="mobile-nav" id="mn" role="navigation" aria-label="Mobile navigation">
+  <div class="mob-label">Who We Are</div>
+  <a href="/who-we-are.html" class="mob-main" onclick="closeMenu()">About Alakemere</a>
+  <a href="/why-alakemere.html" onclick="closeMenu()">Why Alakemere</a>
+  <div class="mob-label">Management Consulting</div>
+  <a href="/management-consulting.html" class="mob-main" onclick="closeMenu()">All Advisory Services</a>
+  <a href="/business-performance.html" onclick="closeMenu()">Business Performance Optimisation</a>
+  <a href="/data-strategy.html" onclick="closeMenu()">Data Strategy &amp; Analytics</a>
+  <a href="/digital-transformation.html" onclick="closeMenu()">Digital Transformation</a>
+  <a href="/project-monitoring.html" onclick="closeMenu()">Project Monitoring &amp; Evaluation</a>
+  <a href="/process-improvement.html" onclick="closeMenu()">Process Improvement</a>
+  <div class="mob-label">Auditing Services</div>
+  <a href="/auditing-services.html" class="mob-main" onclick="closeMenu()">All Audit Services</a>
+  <a href="/data-quality-audits.html" onclick="closeMenu()">Data Quality Audits</a>
+  <a href="/compliance-audits.html" onclick="closeMenu()">Process &amp; Compliance Audits</a>
+  <a href="/risk-assessment.html" onclick="closeMenu()">Operational Risk Assessment</a>
+  <a href="/reporting-lifecycle.html" onclick="closeMenu()">Reporting Lifecycle Review</a>
+  <a href="/erp-audit.html" onclick="closeMenu()">ERP Systems Audit</a>
+  <div class="mob-label">HR Consulting</div>
+  <a href="/hr-consulting.html" class="mob-main" onclick="closeMenu()">All HR Services</a>
+  <a href="/hr-systems.html" onclick="closeMenu()">HR Systems Implementation</a>
+  <a href="/payroll-compliance.html" onclick="closeMenu()">Payroll &amp; Compliance</a>
+  <a href="/workforce-data.html" onclick="closeMenu()">Workforce Data Management</a>
+  <a href="/people-analytics.html" onclick="closeMenu()">People Analytics</a>
+  <div class="mob-label">Training</div>
+  <a href="/training.html" class="mob-main" onclick="closeMenu()">All Training Programmes</a>
+  <a href="/power-bi-training.html" onclick="closeMenu()">Power BI for Your Business</a>
+  <a href="/power-automate-training.html" onclick="closeMenu()">Power Automate &amp; Workflow Design</a>
+  <a href="/ai-tools-training.html" onclick="closeMenu()">AI Tools for Nigerian Business</a>
+  <a href="/contact.html" class="mob-cta" onclick="closeMenu()">Book a Consultation →</a>
+</div>
+<main id="main-content">
+<div class="breadbar"><div class="breadbar-inner"><a href="/index.html">Home</a><span>›</span><a href="/management-consulting.html">Management Consulting</a><span>›</span><span style="color:rgba(92,51,23,.65)">Project Monitoring & Evaluation</span></div></div>
+<div class="page-hero">
+  <div class="page-hero-inner">
+    <div class="page-breadcrumb"><a href="/index.html">Home</a><span>›</span><a href="/management-consulting.html">Management Consulting</a><span>›</span><span style="color:rgba(139,94,60,.5)">Project Monitoring & Evaluation</span></div>
+    <h1 class="page-h1">Keep your projects on track.<br/><em>Before they fall off.</em></h1>
+    <p class="page-intro">Large-scale projects fail not because of a single catastrophic event, but because of accumulated small variances that nobody sees until it is too late. Effective project monitoring gives leadership the visibility to intervene early.</p>
+  </div>
+</div>
+<section class="section">
+  <div class="two-col">
+    <div>
+      <p class="eyebrow reveal">What We Deliver</p>
+      <h2 class="display reveal">Integrated monitoring that<br/>supports <em>executive decisions.</em></h2>
+      <p class="body-text reveal">We provide integrated schedule, cost, and logistics monitoring for infrastructure and large-scale projects — synthesising data across platforms to support milestone compliance and executive decision-making. Our approach is built on real experience managing complex datasets across global project environments.</p>
+      <div class="svc-list"><div class="svc-item reveal "><div class="svc-dot"></div><div><div class="svc-title">Integrated Progress Reporting</div><p class="svc-body">We consolidate schedule, cost, and logistics data from site, contractor, and management systems into unified progress reports that give leadership a single, accurate view of project status.</p></div></div><div class="svc-item reveal d1"><div class="svc-dot"></div><div><div class="svc-title">Variance Analysis</div><p class="svc-body">We identify and quantify variances from baseline — schedule slippage, cost overruns, resource gaps — and produce root cause analyses that support targeted corrective action.</p></div></div><div class="svc-item reveal d2"><div class="svc-dot"></div><div><div class="svc-title">Milestone Compliance Monitoring</div><p class="svc-body">We track milestone achievement against programme baselines, flagging risks to upcoming milestones early enough for management intervention before they become delays.</p></div></div><div class="svc-item reveal d0"><div class="svc-dot"></div><div><div class="svc-title">Executive Dashboard Design</div><p class="svc-body">We build Power BI dashboards that translate complex project data into clear visual narratives for senior leadership and client reporting — showing what matters, without the noise.</p></div></div><div class="svc-item reveal d1"><div class="svc-dot"></div><div><div class="svc-title">Multi-Platform Data Management</div><p class="svc-body">We manage and reconcile datasets across multiple project management platforms, ensuring data integrity and building trustworthy sources of truth for all project stakeholders.</p></div></div></div>
+    </div>
+    <div class="panel reveal d2" style="margin-top:0">
+      <div class="panel-title">What You Gain</div>
+      <div class="panel-row"><div class="panel-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 3v18h18M7 16l4-4 4 4 4-4"/></svg></div><div class="panel-text">Single, reliable source of project performance data for all stakeholders</div></div><div class="panel-row"><div class="panel-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M12 8v4l3 3M12 22c5.5 0 10-4.5 10-10S17.5 2 12 2 2 6.5 2 12s4.5 10 10 10z"/></svg></div><div class="panel-text">Early warning on milestone risk — before slippage becomes delay</div></div><div class="panel-row"><div class="panel-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M9 12l2 2 4-4m6 2a9 9 0 1 1-18 0 9 9 0 0 1 18 0z"/></svg></div><div class="panel-text">Clear, credible reports for executive and client audiences</div></div><div class="panel-row"><div class="panel-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div><div class="panel-text">Data-led root cause analysis when variances occur</div></div>
+    </div>
+  </div>
+</section>
+<section class="cta-strip">
+  <div class="reveal">
+    <div class="cta-strip-title">Keep your next project<br/>on schedule and <em>on budget.</em></div>
+    <p class="cta-strip-sub">Book a free consultation to discuss your project's monitoring requirements.</p>
+  </div>
+  <div class="reveal d1">
+    <a href="/contact.html?interest=project-monitoring" class="btn-primary">Book a Free Consultation →</a>
+  </div>
+</section>
+<a href="https://wa.me/2348030733798" target="_blank" rel="noopener" class="wa-float" aria-label="WhatsApp Alakemere"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+<button class="back-top" id="bt" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top">↑</button>
+<footer role="contentinfo">
+  <div class="footer-top">
+    <div>
+      <div style="display:flex;align-items:center;gap:11px;margin-bottom:.85rem">
+        <img src="data:image/png;base64,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" alt="Alakemere cassava leaf logo" style="height:32px;width:32px;display:block;flex-shrink:0"/>
+        <span style="display:inline-block;width:1px;height:22px;background:rgba(237,224,212,.28);flex-shrink:0"></span>
+        <span style="font-family:'Montserrat',sans-serif;font-size:.78rem;font-weight:600;letter-spacing:.24em;color:var(--cream);white-space:nowrap">ALAKEMERE</span>
+      </div>
+      <span class="footer-brand-tag">Management Consulting · Nigeria</span>
+      <p class="footer-tagline">Management consulting, auditing, HR advisory, and professional training for the businesses building Nigeria's future.</p>
+    </div>
+    <div class="footer-col">
+      <p class="footer-col-title">Who We Are</p>
+      <a href="/who-we-are.html">Our Story &amp; Values</a>
+      <a href="/why-alakemere.html">Why Alakemere</a>
+      <a href="/contact.html">Contact Us</a>
+    </div>
+    <div class="footer-col">
+      <p class="footer-col-title">Services</p>
+      <a href="/management-consulting.html">Management Consulting</a>
+      <a href="/auditing-services.html">Auditing Services</a>
+      <a href="/hr-consulting.html">HR Consulting</a>
+      <a href="/training.html">Training &amp; Certification</a>
+    </div>
+    <div class="footer-col">
+      <p class="footer-col-title">Contact</p>
+      <p><a href="mailto:epnkitchen@gmail.com">epnkitchen@gmail.com</a></p>
+      <p><a href="tel:+2348030733798">+234 803 073 3798</a></p>
+      <p>Abuja, Nigeria</p>
+      <p style="margin-top:.6rem"><a href="https://wa.me/2348030733798">WhatsApp →</a></p>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; 2026 Alakemere Limited. All rights reserved.</span>
+    <a href="mailto:epnkitchen@gmail.com">epnkitchen@gmail.com</a>
+  </div>
+</footer>
+<script>
+  window.addEventListener('load',()=>{setTimeout(()=>{const p=document.getElementById('pre');if(p)p.style.cssText='opacity:0;visibility:hidden;pointer-events:none'},400)});
+  const ro=new IntersectionObserver(e=>{e.forEach(x=>{if(x.isIntersecting)x.target.classList.add('visible')})},{threshold:.07});
+  document.querySelectorAll('.reveal').forEach(el=>ro.observe(el));
+  window.addEventListener('scroll',()=>{
+    const y=window.scrollY;
+    document.getElementById('nav').classList.toggle('scrolled',y>60);
+    const bt=document.getElementById('bt');if(bt)bt.classList.toggle('show',y>400);
+  });
+  const hb=document.getElementById('hb'),mn=document.getElementById('mn');
+  if(hb&&mn){hb.addEventListener('click',()=>{const o=mn.classList.toggle('open');hb.classList.toggle('active',o);hb.setAttribute('aria-expanded',o);document.body.style.overflow=o?'hidden':''});}
+  function closeMenu(){if(mn)mn.classList.remove('open');if(hb){hb.classList.remove('active');hb.setAttribute('aria-expanded','false');}document.body.style.overflow='';}
+  function handleBooking(e){
+    e.preventDefault();
+    const n=document.getElementById('f-name')?.value.trim(),ph=document.getElementById('f-phone')?.value.trim();
+    if(!n||!ph){alert('Please fill in your name and phone number.');return}
+    const co=document.getElementById('f-company')?.value.trim()||'',ro2=document.getElementById('f-role')?.value.trim()||'',em=document.getElementById('f-email')?.value.trim()||'',int=document.getElementById('f-interest')?.value||'';
+    let msg=`Hello Alakemere, I'd like to book a consultation.\n\nName: ${n}`;
+    if(co)msg+=`\nOrganisation: ${co}`;if(ro2)msg+=`\nRole: ${ro2}`;if(em)msg+=`\nEmail: ${em}`;
+    msg+=`\nPhone: ${ph}`;if(int)msg+=`\nInterest: ${int}`;
+    window.open(`https://wa.me/2348030733798?text=${encodeURIComponent(msg)}`,'_blank');
+  }
+</script>
+</body>
+</html>
