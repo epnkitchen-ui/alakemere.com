@@ -4,10 +4,10 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Leadership AI Training Nigeria — Executive Workshop | Alakemere</title>
-  <meta name="description" content="A 1–2 day intensive AI workshop for Nigerian CEOs, founders, senior managers, and boards. Anchored to the Microsoft Business Leader AI framework, translated for the Nigerian operating environment."/>
+  <meta name="description" content="A 1–2 day intensive AI workshop for Nigerian CEOs, founders, senior managers, and boards. Anchored to international best practice and translated for the Nigerian operating environment."/>
   <link rel="canonical" href="https://alakemere.com/leadership-ai-training.html"/>
   <meta property="og:title" content="Leadership AI Training Nigeria — Executive Workshop | Alakemere"/>
-  <meta property="og:description" content="A 1–2 day intensive AI workshop for Nigerian CEOs, founders, senior managers, and boards. Anchored to the Microsoft Business Leader AI framework, translated for the Nigerian operating environment."/>
+  <meta property="og:description" content="A 1–2 day intensive AI workshop for Nigerian CEOs, founders, senior managers, and boards. Anchored to international best practice and translated for the Nigerian operating environment."/>
   <meta property="og:type" content="website"/>
   <meta property="og:site_name" content="Alakemere"/>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,600&family=Montserrat:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"/>
@@ -180,6 +180,7 @@
         <a href="/digital-transformation.html" role="menuitem">Digital Transformation</a>
         <a href="/project-monitoring.html" role="menuitem">Project Monitoring &amp; Evaluation</a>
         <a href="/process-improvement.html" role="menuitem">Process Improvement</a>
+        <a href="/invexerp.html" role="menuitem">InvexERP Implementation</a>
       </div>
     </li>
     <li class="nav-item" role="none">
@@ -231,6 +232,7 @@
   <a href="/digital-transformation.html" onclick="closeMenu()">Digital Transformation</a>
   <a href="/project-monitoring.html" onclick="closeMenu()">Project Monitoring &amp; Evaluation</a>
   <a href="/process-improvement.html" onclick="closeMenu()">Process Improvement</a>
+  <a href="/invexerp.html" onclick="closeMenu()">InvexERP Implementation</a>
   <div class="mob-label">Auditing Services</div>
   <a href="/auditing-services.html" class="mob-main" onclick="closeMenu()">All Audit Services</a>
   <a href="/data-quality-audits.html" onclick="closeMenu()">Data Quality Audits</a>
@@ -266,12 +268,12 @@
     <div>
       <p class="eyebrow reveal">What the Programme Covers</p>
       <h2 class="display reveal">Four things every Nigerian leader<br/>now has to do <em>well.</em></h2>
-      <p class="body-text reveal">This is not an AI tools demo. It is a working session for the people who set direction. Mixed cohorts of founders, senior managers, and board members work through four modules, with case material drawn from Nigerian businesses — your sector wherever possible. The curriculum is anchored to the Microsoft Business Leader AI framework and translated into the operating reality of running a business in Nigeria. Every module ends with a deliverable you take back to the office on Monday.</p>
+      <p class="body-text reveal">This is not an AI tools demo. It is a working session for the people who set direction. Mixed cohorts of founders, senior managers, and board members work through four modules, with case material drawn from Nigerian businesses — your sector wherever possible. The curriculum is anchored to international best practice in business AI adoption and translated into the operating reality of running a business in Nigeria. Every module ends with a deliverable you take back to the office on Monday.</p>
       <div class="svc-list">
 
         <div class="svc-item reveal "><div class="svc-dot"></div><div><div class="svc-title">Module 01 &middot; AI Strategy for the Business</div><p class="svc-body">Where AI actually creates value in a business like yours &mdash; and where it does not. We work through your operating model, identify the two or three places AI can shift cost, speed, or revenue this year, and stress-test them against the realities of running in Nigeria. You leave with a one-page AI strategy for your business, drafted in the room.</p></div></div>
 
-        <div class="svc-item reveal d1"><div class="svc-dot"></div><div><div class="svc-title">Module 02 &middot; Personal Productivity with AI</div><p class="svc-body">Hands-on time with the tools you will actually use as a leader &mdash; ChatGPT, Claude, Microsoft Copilot, Gemini &mdash; applied to the work you already do. Drafting board papers, summarising long reports, preparing for negotiations, structuring strategic thinking. For organisations on Microsoft 365, we go deep on Copilot across Outlook, Word, Excel, and Teams &mdash; because it is the productivity surface your team is already paying for. By the end of day one, you will have a personal AI workflow that saves real hours every week.</p></div></div>
+        <div class="svc-item reveal d1"><div class="svc-dot"></div><div><div class="svc-title">Module 02 &middot; Personal Productivity with AI</div><p class="svc-body">Hands-on time with the AI tools you will actually use as a leader, applied to the work you already do. Drafting board papers, summarising long reports, preparing for negotiations, structuring strategic thinking. We work with whatever toolset your organisation has standardised on &mdash; or help you decide what to standardise on if that decision is still open. By the end of day one, you will have a personal AI workflow that saves real hours every week.</p></div></div>
 
         <div class="svc-item reveal d2"><div class="svc-dot"></div><div><div class="svc-title">Module 03 &middot; Leading AI Adoption Across Teams</div><p class="svc-body">How to roll AI out across your organisation without losing control of cost, quality, or data. We cover the practical questions: which roles get access first, how to write a usage policy your team will actually follow, what to budget, how to measure whether it is working, and how to handle the staff conversations that come with it.</p></div></div>
 
@@ -290,7 +292,7 @@
       <div class="panel-row"><div class="panel-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M9 12l2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg></div><div class="panel-text"><strong style="color:var(--cream);font-weight:600">What you leave with</strong><br/>A one-page AI strategy. A personal AI workflow that saves hours every week. A 90-day adoption plan for your teams.</div></div>
       <div class="panel-row"><div class="panel-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div><div class="panel-text"><strong style="color:var(--cream);font-weight:600">Cohort size</strong><br/>Capped at 12 leaders per session. Small enough that every participant works through their own business, not a generic case.</div></div>
       <div class="panel-row"><div class="panel-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div><div class="panel-text"><strong style="color:var(--cream);font-weight:600">30-day follow-up</strong><br/>Group call 30 days after the workshop to surface what is working, troubleshoot what is not, and adjust your action plan.</div></div>
-      <div class="panel-row"><div class="panel-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div><div class="panel-text"><strong style="color:var(--cream);font-weight:600">Pre-work</strong><br/>One hour with the Microsoft Business Leader AI Learning Path before the workshop &mdash; freely available, optional, and significantly improves what you take from day one.</div></div>
+      <div class="panel-row"><div class="panel-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg></div><div class="panel-text"><strong style="color:var(--cream);font-weight:600">Pre-work</strong><br/>A short pre-workshop briefing pack sent one week before the session &mdash; designed to ensure participants arrive with shared vocabulary, so more of our time together is spent on your business, not on definitions.</div></div>
     </div>
   </div>
 </section>
@@ -339,9 +341,9 @@
 <section class="section section-alt">
   <div style="max-width:780px">
     <p class="eyebrow reveal">The Framework Behind the Workshop</p>
-    <h2 class="display reveal">Anchored to Microsoft.<br/>Translated for <em>Nigeria.</em></h2>
-    <p class="body-text reveal">Microsoft publishes a four-module learning path for business leaders adopting AI &mdash; <em>Transform Your Business with AI</em>. It is well-structured, vendor-credible, and freely available online. We use it as the foundation reference for this workshop, then do the work that self-paced online learning cannot do: translate the principles into the operating reality of running a business in Nigeria, anchor them to your specific company, and turn them into decisions you make in the room.</p>
-    <p class="body-text reveal" style="margin-top:1rem">Each of our four workshop modules maps directly to a module in the Microsoft framework. The Microsoft path teaches the concepts. The Alakemere workshop applies them &mdash; to your business, your data, your team, your sector, your regulators.</p>
+    <h2 class="display reveal">Anchored to international best practice.<br/>Translated for <em>Nigeria.</em></h2>
+    <p class="body-text reveal">The leading frameworks for business AI adoption &mdash; published by major technology vendors, business schools, and management consultancies &mdash; converge on four areas every leader has to get right: personal AI fluency, AI strategy for the business, responsible AI and risk, and leading adoption across teams. Our workshop is anchored to that consensus, then does the work that self-paced online learning and generic frameworks cannot do: translate the principles into the operating reality of running a business in Nigeria, anchor them to your specific company, and turn them into decisions you make in the room.</p>
+    <p class="body-text reveal" style="margin-top:1rem">Our four workshop modules each map to one of these four areas. International frameworks teach the concepts. The Alakemere workshop applies them &mdash; to your business, your data, your team, your sector, your regulators.</p>
   </div>
 
   <div class="sub-grid reveal" style="grid-template-columns:repeat(2,1fr);margin-top:3rem">
@@ -349,28 +351,28 @@
     <div class="sub-card" style="cursor:default">
       <div class="sub-card-num">01</div>
       <div class="sub-card-title">Personal Productivity with AI</div>
-      <p class="sub-card-body" style="margin-bottom:.65rem"><em style="color:var(--warm);font-style:normal;font-weight:600;font-size:.6rem;letter-spacing:.16em;text-transform:uppercase">Microsoft module:</em> <span style="color:rgba(92,51,23,.7)">Leverage AI tools and resources for your business</span></p>
-      <p class="sub-card-body">We translate the tools chapter into your daily executive workflow &mdash; what Copilot in your existing M365 estate actually changes, what to budget, and what a working leader's AI routine looks like at the end of day one.</p>
+      <p class="sub-card-body" style="margin-bottom:.65rem"><em style="color:var(--warm);font-style:normal;font-weight:600;font-size:.6rem;letter-spacing:.16em;text-transform:uppercase">Best-practice area:</em> <span style="color:rgba(92,51,23,.7)">Leveraging AI tools for personal and team productivity</span></p>
+      <p class="sub-card-body">We translate the tools chapter into your daily executive workflow &mdash; which AI tools genuinely change how a leader works, what to budget, and what a working leader's AI routine looks like at the end of day one.</p>
     </div>
 
     <div class="sub-card" style="cursor:default">
       <div class="sub-card-num">02</div>
       <div class="sub-card-title">AI Strategy for the Business</div>
-      <p class="sub-card-body" style="margin-bottom:.65rem"><em style="color:var(--warm);font-style:normal;font-weight:600;font-size:.6rem;letter-spacing:.16em;text-transform:uppercase">Microsoft module:</em> <span style="color:rgba(92,51,23,.7)">Create business value with AI</span></p>
+      <p class="sub-card-body" style="margin-bottom:.65rem"><em style="color:var(--warm);font-style:normal;font-weight:600;font-size:.6rem;letter-spacing:.16em;text-transform:uppercase">Best-practice area:</em> <span style="color:rgba(92,51,23,.7)">Creating business value with AI</span></p>
       <p class="sub-card-body">We move from the global frame to your operating model &mdash; identifying the two or three places AI can shift cost, speed, or revenue this year, then stress-testing them against Nigerian cash flow rhythms, infrastructure, and customer behaviour.</p>
     </div>
 
     <div class="sub-card" style="cursor:default">
       <div class="sub-card-num">03</div>
       <div class="sub-card-title">Responsible AI &amp; Risk</div>
-      <p class="sub-card-body" style="margin-bottom:.65rem"><em style="color:var(--warm);font-style:normal;font-weight:600;font-size:.6rem;letter-spacing:.16em;text-transform:uppercase">Microsoft module:</em> <span style="color:rgba(92,51,23,.7)">Embrace responsible AI principles and practices</span></p>
-      <p class="sub-card-body">We take Microsoft's responsible AI principles &mdash; fairness, accountability, transparency, privacy &mdash; and walk them through the NDPR, Nigerian contract law, vendor management practice, and the staff conversations that adoption forces.</p>
+      <p class="sub-card-body" style="margin-bottom:.65rem"><em style="color:var(--warm);font-style:normal;font-weight:600;font-size:.6rem;letter-spacing:.16em;text-transform:uppercase">Best-practice area:</em> <span style="color:rgba(92,51,23,.7)">Embracing responsible AI principles and practices</span></p>
+      <p class="sub-card-body">We take the principles every responsible AI framework converges on &mdash; fairness, accountability, transparency, privacy &mdash; and walk them through the NDPR, Nigerian contract law, vendor management practice, and the staff conversations that adoption forces.</p>
     </div>
 
     <div class="sub-card" style="cursor:default">
       <div class="sub-card-num">04</div>
       <div class="sub-card-title">Leading Adoption Across Teams</div>
-      <p class="sub-card-body" style="margin-bottom:.65rem"><em style="color:var(--warm);font-style:normal;font-weight:600;font-size:.6rem;letter-spacing:.16em;text-transform:uppercase">Microsoft module:</em> <span style="color:rgba(92,51,23,.7)">Scale AI in your organization</span></p>
+      <p class="sub-card-body" style="margin-bottom:.65rem"><em style="color:var(--warm);font-style:normal;font-weight:600;font-size:.6rem;letter-spacing:.16em;text-transform:uppercase">Best-practice area:</em> <span style="color:rgba(92,51,23,.7)">Scaling AI across the organisation</span></p>
       <p class="sub-card-body">We translate the scaling chapter into a practical 90-day rollout plan: which roles get access first, how to write a usage policy your team will follow, what to budget, how to measure it, and how to handle the change-management conversation in a Nigerian team.</p>
     </div>
 
@@ -378,7 +380,7 @@
 
   <div class="quote-block reveal" style="margin-top:3.5rem">A good framework gives you the questions. A good workshop helps you answer them &mdash; in a room, with peers, against the specific business you are running.</div>
 
-  <p class="body-text reveal" style="margin-top:1.5rem;font-size:.78rem;color:rgba(92,51,23,.55)">The Microsoft Business Leader AI Learning Path is freely available at <a href="https://learn.microsoft.com/en-us/training/paths/transform-your-business-with-microsoft-ai/" target="_blank" rel="noopener" style="color:var(--warm);text-decoration:underline">learn.microsoft.com</a>. We recommend participants spend an hour with it before the workshop &mdash; arriving with the vocabulary already loaded means more of our time together is spent on your business, not on definitions.</p>
+  <p class="body-text reveal" style="margin-top:1.5rem;font-size:.78rem;color:rgba(92,51,23,.55)">Our curriculum draws on best practice from across the field of business AI adoption &mdash; vendor publications, business school research, and the practical experience of working with Nigerian leaders putting AI to work. Participants receive a curated pre-workshop briefing pack, ensuring everyone arrives with shared vocabulary and more of our time together is spent on your business, not on definitions.</p>
 </section>
 
 <section class="cta-strip">
